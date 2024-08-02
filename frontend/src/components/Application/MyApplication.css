@@ -1,0 +1,36 @@
+/* MyApplication.css */
+
+.my-applications {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.application-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.view-details-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-details-link:hover {
+  text-decoration: underline;
+}

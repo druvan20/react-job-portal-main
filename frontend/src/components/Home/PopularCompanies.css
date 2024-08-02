@@ -1,0 +1,49 @@
+/* src/components/PopularCompanies/PopularCompanies.css */
+
+.popular-companies {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.company {
+  flex: 1 1 calc(20% - 40px); /* Adjust percentage based on the number of companies */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.company-logo {
+  max-width: 150px; /* Adjust size of the logo */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
